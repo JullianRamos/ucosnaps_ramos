@@ -7,13 +7,13 @@ if (!isset($_SESSION['username'])) {
     exit;
 }
 
-// Check if album_id is passed in the URL
+
 if (!isset($_GET['album_id'])) {
     echo "Album not specified.";
     exit;
 }
 
-// Fetch the album and its photos
+
 $album_id = $_GET['album_id'];
 $album = getAlbumByID($pdo, $album_id);
 
@@ -30,33 +30,33 @@ if (!$album) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo htmlspecialchars($album['album_name']); ?></title>
     <style>
-        /* General body styles */
+      
         body {
-            background-color: #121212;  /* Dark background */
-            color: #ffffff;              /* Light text color */
-            font-family: Arial, sans-serif; /* Font style */
+            background-color: #121212;  
+            color: #ffffff;              
+            font-family: Arial, sans-serif; 
             margin: 0;
             padding: 0;
         }
 
-        /* Navbar styles */
+      
         .navbar {
-            background-color: #1e1e1e;  /* Darker navbar */
+            background-color: #1e1e1e; 
             padding: 10px;
             text-align: center;
         }
 
-        /* Album container styles */
+        
         .albumContainer {
             text-align: center;
             margin-top: 20px;
             padding: 20px;
-            background-color: #1e1e1e;  /* Dark background for album */
-            border: 1px solid #444;      /* Light gray border */
-            border-radius: 5px;          /* Rounded corners */
+            background-color: #1e1e1e;  
+            border: 1px solid #444;     
+            border-radius: 5px;         
         }
 
-        /* Photos container styles */
+
         .albumPhotos {
             display: flex;
             flex-wrap: wrap;
@@ -64,22 +64,22 @@ if (!$album) {
             justify-content: center;
         }
 
-        /* Individual photo styles */
+    
         .photo {
             width: 200px;
-            background-color: #2a2a2a;  /* Darker background for photo */
-            border-radius: 5px;          /* Rounded corners */
-            padding: 10px;               /* Padding around photos */
+            background-color: #2a2a2a; 
+            border-radius: 5px;         
+            padding: 10px;               
         }
 
-        /* Link styles */
+
         a {
-            color: #1e90ff;              /* Bright blue for links */
-            text-decoration: none;        /* Remove underline */
+            color: #1e90ff;             
+            text-decoration: none;       
         }
 
         a:hover {
-            text-decoration: underline;   /* Underline on hover */
+            text-decoration: underline;  
         }
     </style>
 </head>
