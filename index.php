@@ -15,56 +15,56 @@ if (!isset($_SESSION['username'])) {
 	<link rel="stylesheet" href="styles/styles.css">
 	<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 	<style>
-		/* General body styles */
+
 		body {
-			background-color: #121212;  /* Dark background */
-			color: #ffffff;              /* Light text color */
+			background-color: #121212;  
+			color: #ffffff;       
 		}
 
-		/* Navbar styles */
+	
 		.navbar {
-			background-color: #1e1e1e;  /* Darker navbar */
+			background-color: #1e1e1e;  
 		}
 
-		/* Form styles */
+	
 		.createAlbumForm, .addPhotosForm, .albumContainer {
-			background-color: #1e1e1e;  /* Dark background for forms */
-			border: 1px solid #444;      /* Light gray border */
-			border-radius: 5px;          /* Rounded corners */
-			padding: 15px;               /* Padding for better spacing */
+			background-color: #1e1e1e;
+			border: 1px solid #444;    
+			border-radius: 5px;         
+			padding: 15px;              
 		}
 
 		/* Input and textarea styles */
 		input[type="text"], input[type="file"], textarea, select {
-			background-color: #2a2a2a;  /* Darker input fields */
-			color: #ffffff;              /* Light text in inputs */
-			border: 1px solid #444;      /* Light gray border */
-			padding: 10px;               /* Padding */
-			border-radius: 5px;          /* Rounded corners */
+			background-color: #2a2a2a;  
+			color: #ffffff;           
+			border: 1px solid #444;    
+			padding: 10px;              
+			border-radius: 5px;       
 		}
 
-		/* Button styles */
+	
 		input[type="submit"] {
-			background-color: #3a3a3a;  /* Dark button background */
-			color: #ffffff;              /* Light text color */
-			border: none;                /* Remove border */
-			padding: 10px 20px;         /* Padding */
-			border-radius: 5px;          /* Rounded corners */
-			cursor: pointer;             /* Pointer cursor */
+			background-color: #3a3a3a; 
+			color: #ffffff;            
+			border: none;         
+			padding: 10px 20px;    
+			border-radius: 5px;      
+			cursor: pointer;    
 		}
 
-		/* Hover effects */
+		
 		input[type="submit"]:hover {
-			background-color: #444;      /* Slightly lighter on hover */
+			background-color: #444;     
 		}
 
-		/* Album styles */
+	
 		.album {
 			margin-top: 25px;
 		}
 
 		.albumImages img {
-			border-radius: 5px;          /* Rounded corners for images */
+			border-radius: 5px;       
 		}
 	</style>
 </head>
