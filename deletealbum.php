@@ -31,40 +31,40 @@ if (isset($_POST['confirmDelete'])) {
     <style>
         /* General body styles */
         body {
-            background-color: #121212;  /* Dark background */
-            color: #ffffff;              /* Light text color */
-            font-family: Arial, sans-serif; /* Font style */
+            background-color: #121212;  
+            color: #ffffff;              
+            font-family: Arial, sans-serif; 
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;              /* Full height */
+            height: 100vh;        
             margin: 0;
         }
 
         /* Form styles */
         form {
-            background-color: #1e1e1e;  /* Darker background for form */
-            border: 1px solid #444;      /* Light gray border */
-            padding: 20px;               /* Padding for better spacing */
-            border-radius: 5px;          /* Rounded corners */
-            text-align: center;           /* Centered text */
+            background-color: #1e1e1e;  
+            border: 1px solid #444;    
+            padding: 20px;              
+            border-radius: 5px;         
+            text-align: center;           
         }
 
         /* Button styles */
         button {
-            background-color: #3a3a3a;  /* Dark button background */
-            color: #ffffff;              /* Light text color */
-            border: none;                /* Remove border */
-            padding: 10px 20px;         /* Padding */
-            border-radius: 5px;          /* Rounded corners */
-            cursor: pointer;             /* Pointer cursor */
-            margin: 5px;                /* Margin for spacing */
+            background-color: #3a3a3a;  
+            color: #ffffff;              
+            border: none;              
+            padding: 10px 20px; 
+            border-radius: 5px;    
+            cursor: pointer;        
+            margin: 5px;           
         }
 
         /* Hover effects */
         button:hover {
-            background-color: #444;      /* Slightly lighter on hover */
+            background-color: #444;    
         }
     </style>
 </head>
