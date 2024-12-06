@@ -15,52 +15,52 @@ if (!isset($_SESSION['username'])) {
 	<title>User Profile</title>
 	<link rel="stylesheet" href="styles/styles.css">
 	<style>
-		/* General body styles */
+	
 		body {
-			background-color: #121212;  /* Dark background */
-			color: #ffffff;              /* Light text color */
+			background-color: #121212;  
+			color: #ffffff;           
 		}
 
-		/* Navbar styles */
+
 		.navbar {
-			background-color: #1e1e1e;  /* Darker navbar */
+			background-color: #1e1e1e; 
 		}
 
-		/* Container styles */
+	
 		.container {
 			display: flex;
 			justify-content: center;
 		}
 
-		/* User info styles */
+
 		.userInfo {
-			background-color: #1e1e1e;  /* Dark background for user info */
-			border: 1px solid #444;      /* Light gray border */
+			background-color: #1e1e1e; 
+			border: 1px solid #444;     
 			width: 50%;
 			text-align: center;
-			padding: 15px;               /* Padding for better spacing */
-			border-radius: 5px;          /* Rounded corners */
+			padding: 15px;            
+			border-radius: 5px;   
 		}
 
 		/* Album container styles */
 		.albumContainer {
-			background-color: #1e1e1e;  /* Dark background for album containers */
-			border: 1px solid #444;      /* Light gray border */
+			background-color: #1e1e1e;  
+			border: 1px solid #444;     
 			width: 50%;
 			text-align: center;
-			padding: 20px;               /* Padding */
-			margin-top: 25px;            /* Margin for spacing */
-			border-radius: 5px;          /* Rounded corners */
+			padding: 20px;               
+			margin-top: 25px;          
+			border-radius: 5px;          
 		}
 
 		/* Link styles */
 		a {
-			color: #1e90ff;              /* Bright blue for links */
-			text-decoration: none;       /* Remove underline */
+			color: #1e90ff;           
+			text-decoration: none;     
 		}
 
 		a:hover {
-			text-decoration: underline;  /* Underline on hover */
+			text-decoration: underline;
 		}
 	</style>
 </head>
